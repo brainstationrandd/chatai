@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  chatai:
+    build: .
+    ports:
+      - "1066:1066"
+    env_file:
+      - .env
+    command: uvicorn app.main:app --host 0.0.0.0 --port 1066 --reload

@@ -1,0 +1,9 @@
+.env
+.conda
+*.ipynb
+*.log
+data/pdf/*
+env
+*/__pycache__
+nenv
+__pycache__
