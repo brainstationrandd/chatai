@@ -1,0 +1,223 @@
+Project Name,Project Type,Project Description,Project Length,Key Features,Tech Stack,Business Impact,Target Audience
+Nikles Chatbot," Gen AI,LLM,Chatbot,AI","A chatbot developed for Nikles Group, a prominent Swiss manufacturer of shower equipment. The bot enhances customer interaction, offering personalized shopping experiences and product suggestions.",4 months,"- Multilingual support (English, French, German)
+- Product card generation for detailed product view
+- Context-aware chat to maintain conversation flow
+- UI localization for multiple languages","FastAPI,OpenAI,React.js,Postgres","- Streamlines customer engagement
+- Provides intelligent product recommendations
+- Enhances multilingual support
+- Improves user experience for global customers","1 E-commerce platforms
+2 Global manufacturers
+3 Retail brands looking to improve customer experience and sales optimization"
+Upendnow,"Video Analysis, Image generation","Upendnow is a comprehensive video production platform designed to empower users to create high-quality video content with ease. By leveraging advanced language models and state-of-the-art tools, Upendnow offers a suite of features that streamline the entire video creation process. Users can initiate projects to analyze existing videos, generate custom scripts, and create visually stunning scenes tailored to their specific needs. With its user-friendly interface, customizable options, and integrated payment gateways, Upendnow provides a seamless and efficient solution for both individual creators and businesses seeking to enhance their video content.",,"• Advanced Video Analysis:
+    1 Sentiment Analysis: Determine the overall mood and tone of videos.
+    2 Topic Modeling: Identify the main subjects and themes discussed in videos.
+    3 Style Analysis: Analyze the visual style, editing techniques, and audio elements used in videos.
+• Intelligent Video Search:
+    1 Keyword Search: Search for videos based on user needs and specifications.
+• Automated Scriptwriting:
+    1 Storyboarding: Generate visual representations of the script, including shot lists and scene descriptions.
+    2 Dialogue Generation: Create realistic and engaging dialogue based on the script's context.
+    3 Translation: Translate scripts into multiple languages.
+• AI-Powered Image Generation:
+    1 Character Consistency: Keep character consistency throughout the whole storyboard to maintain consistent storytelling.
+    1 Style Transfer: Generate images in different artistic styles (e.g., realistic, cartoonish, abstract).
+    2 Real-Time Generation: Generate images based on user prompts or input.
+    3 Customization: Allow users to customize the generated images to fit their specific needs.","Nodejs, Nextjs","•  Enhanced Content Creation Efficiency: The project can significantly streamline the video production process by automating tasks such as scriptwriting and image generation. This can reduce production time and costs.
+•  Improved Content Quality: By providing in-depth video analysis and relevant web searches, the project can help creators produce more engaging and informative content.
+•  New Revenue Streams: The project could potentially be monetized through subscriptions, premium features, or partnerships with content creators.
+•  Competitive Advantage: For businesses that rely heavily on video content, this project could provide a competitive advantage by enabling them to produce high-quality content more efficiently than their competitors.","•  Content Creators: Individuals or businesses that produce video content for various platforms (e.g., YouTube, TikTok, Instagram, social media marketing).
+•  Marketing Agencies: Agencies that create video content for their clients.
+•  Education Institutions: Schools, universities, and training organizations that use videos for teaching and learning.
+•  Businesses: Companies that use videos for internal communications, training, or marketing purposes.
+•  Filmmakers and Production Companies: Independent filmmakers and production companies that can benefit from automated tools for scriptwriting and image generation."
+Multi-LLM Automated Chatbot,"Multi LLM Chatbot, Gen AI, Prompt Engg","The ""Multi-LLM Automated Chatbot"" is an advanced conversational AI solution designed to enhance user interactions with financial data, particularly in the insurance sector and other businesses. This chatbot leverages a custom knowledge base stored in Chroma DB, enabling efficient filtering and retrieval of relevant information based on user queries. The knowledge is organized by SubType and Main Type, allowing for precise responses tailored to specific inquiries. Utilizing multiple large language models (LLMs) and generative AI, alongside innovative prompt engineering techniques, this project aims to deliver accurate, context-aware answers.",,"Custom Knowledge Base: Utilizes Chroma DB to store and manage financial data, specifically tailored to insurance companies and other sectors.
+
+Dynamic Query Filtering: Efficiently retrieves relevant information based on user queries by filtering data according to SubType and Main Type.
+Multi-LLM Support: Leverages various large language models (OpenAI, Phi 3, Mistral, Claude AI) to enhance response accuracy and variety.
+Generative AI Capabilities: Generates context-aware responses that improve user engagement and satisfaction.
+Prompt Engineering: Employs sophisticated prompt strategies to maximize the effectiveness of LLM responses.
+Scalable Architecture: Built on a robust tech stack, including Fast API and LangChain, allowing for easy scalability and integration with existing systems.
+Structured Knowledge Organization: Maintains a well-organized knowledge base for quick and precise access to information.
+Cross-Industry Application: Besides insurance, the chatbot can adapt to various business sectors, providing a wide range of financial data insights.","1. OpenAI
+2. Phi 3
+3. Mistral
+4. Claude AI
+5. Fast API
+6. LangChain
+7. Chroma DB
+8. MS SQL Server","Enhanced Customer Engagement: Provides instant, accurate responses, improving user experience and satisfaction.
+Increased Efficiency: Reduces the time spent on information retrieval, allowing staff to focus on more complex tasks.
+Data-Driven Insights: Offers actionable insights from financial data, enabling better decision-making for users.
+Cost Savings: Decreases operational costs by automating responses and reducing the need for extensive customer support resources.
+Scalability: Facilitates easy expansion to handle increased queries as the business grows, ensuring consistent service quality.
+Competitive Advantage: Positions the business as a leader in utilizing advanced AI technologies in the financial sector, attracting more clients.
+Versatile Application: Adapts to various industries, opening up new market opportunities beyond insurance.
+Improved Data Accuracy: Ensures that users receive up-to-date and precise information, fostering trust and reliability.","Insurance companies
+Financial institutions
+Small to medium-sized businesses
+Corporates requiring financial data insights
+Financial analysts and advisors
+Customer support teams in finance
+Regulatory bodies and compliance officers
+Tech-savvy consumers seeking financial information"
+OCR on Tickets,"Gen AI, Open AI Vision, Gen AI, Prompt Engg","This project focuses on developing a multi-LLM chatbot solution to extract and process information from handwritten tickets using Optical Character Recognition (OCR) technology. Leveraging OpenAI Vision for image-to-text conversion, the system is designed to decode and interpret handwritten content with high accuracy. By integrating Generative AI and Prompt Engineering, the solution aims to enhance data extraction and automate workflows. The Fast API framework ensures efficient backend processing, while Base64 is used for secure image handling.",,"Advanced OCR with OpenAI Vision: Utilizes cutting-edge AI models to accurately extract text from handwritten tickets, ensuring high recognition rates even for complex or messy handwriting.
+Multi-LLM Chatbot Integration: Employs multiple Large Language Models (LLMs) to provide intelligent responses and decision-making based on the extracted ticket information, enhancing overall user interaction.
+Generative AI-Powered Responses: Uses Generative AI to refine and enhance extracted text, improving the quality of the output by interpreting incomplete or unclear ticket data.
+Fast API for Efficient Processing: Fast API framework ensures fast and scalable backend operations, enabling quick responses and seamless integration with external systems or APIs.
+Secure Image Handling with Base64: Converts images to Base64 format for secure transmission and storage, ensuring data integrity and compliance with privacy standards.
+Prompt Engineering for Enhanced Accuracy: Optimizes prompts for the LLMs to ensure high accuracy and relevance in both OCR extraction and the chatbot's automated interactions.
+Customizable Workflows: Flexible design allows for adaptation to different ticket formats and business needs, enabling easy customization for various use cases.","1. OpenAI Vision
+2. Fast API
+3. Base 64
+4. Prompt Engineering","Increased Efficiency: Automates the process of reading and interpreting handwritten tickets, reducing manual data entry time and improving operational productivity.
+Cost Reduction: Lowers labor costs by minimizing the need for human intervention in ticket processing, allowing businesses to allocate resources more effectively.
+Improved Accuracy: Enhances data accuracy by using advanced OCR technology, reducing errors associated with manual transcription of handwritten information.
+Faster Turnaround Time: Speeds up the ticketing workflow, enabling quicker resolution of tasks and improving customer satisfaction through timely responses.
+Scalability for Business Growth: Supports high-volume processing with scalable AI-driven solutions, allowing businesses to handle increased workloads as they expand.","Customer Service Departments
+Event Management Companies
+Transportation and Logistics Firms
+Retail Businesses with Handwritten Transactions
+Healthcare Providers Handling Patient Notes"
+Room Condition and Category Prediction,"Gen AI, Open AI Vision, Gen AI, Prompt Engg","The ""Room Condition and Category Prediction"" project leverages advanced AI technologies to analyze and assess room images. It consists of two main components:
+
+Room Type Identification: Utilizing OpenAI Vision, the application processes room images in Base64 format to accurately identify and categorize them into approximately 40 distinct room types, such as foundation_condition_image, front_of_property_image, interior_main_living_area_photo, and more.
+
+Room Condition Assessment: The project further evaluates the condition of the identified rooms by analyzing the same images. It provides insights regarding the state of the room, such as age, potential damage on walls, and cleanliness.
+
+This project integrates Generative AI, OpenAI Vision, and prompt engineering, utilizing a tech stack that includes OpenAI Vision, Flask, Base64 encoding, and sophisticated prompt engineering techniques to ensure precise analysis and classification.",,"Multi-Type Room Classification: Identifies and categorizes images into 40 distinct room types, ensuring comprehensive coverage of various room categories.
+Condition Analysis: Evaluates the condition of the room, providing insights into age, cleanliness, and any visible damage.
+Base64 Image Processing: Supports image input in Base64 format for seamless integration and processing.
+Real-Time Assessment: Delivers immediate results for room type identification and condition evaluation, enhancing user experience.
+Generative AI Integration: Leverages advanced AI capabilities for accurate and reliable predictions.
+User-Friendly Interface: Designed with an intuitive interface for easy interaction and interpretation of results.
+Customizable Prompt Engineering: Utilizes tailored prompt engineering to optimize AI performance for specific analysis needs.","1. OpenAI Vision
+2. Flask
+3. Base 64
+4. Prompt Engineering","Enhanced Decision-Making: Provides accurate room classifications and condition assessments, aiding stakeholders in making informed decisions regarding property management, renovations, and investments.
+Cost Efficiency: Reduces the need for manual inspections, saving time and resources while increasing operational efficiency.
+Improved Customer Satisfaction: Offers quick and reliable assessments, enhancing the user experience and trust in the service.
+Data-Driven Insights: Generates valuable data on room conditions and types, facilitating better strategic planning and resource allocation.
+Market Differentiation: Positions the business as an innovator in leveraging AI for property analysis, attracting more clients in a competitive market.
+Scalability: Supports the analysis of a large volume of images simultaneously, enabling business growth without a corresponding increase in operational costs.","Property Management Companies
+Real Estate Agents
+Home Inspectors
+Insurance Assessors
+Renovation Contractors
+Property Investors
+Homeowners
+Facility Management Firms"
+Content Compliance Summarization,"Natural Language Processing (NLP)
+Document Automation
+Data Management
+Compliance Monitoring
+Information Retrieval
+Machine Learning
+Data Integration
+Reporting and Analytics","The ""Content Compliance Summarization for MJ Hudson"" project is an advanced Natural Language Processing (NLP) initiative designed to automate the collection and classification of public and private documents, such as Environmental, Social, and Governance (ESG) policies, through targeted Google queries. The project employs sophisticated NLP techniques to validate the authenticity of the fetched documents, ensuring they belong to the requested companies. This includes utilizing methods such as question-answering, natural language inference, named entity recognition, and document classification, along with document parsing techniques like table parsing.
+
+The processed data is meticulously attributed to relevant entities and validated for accuracy, subsequently being stored in a data-mart for reporting and exporting purposes.",,"Automated Document Collection: Utilizes targeted Google queries to efficiently gather public and private documents, including ESG policies.
+Advanced NLP Techniques: Employs question-answering, natural language inference, named entity recognition, and document classification for document validation and analysis.
+Document Validation: Confirms the authenticity of fetched documents to ensure they belong to the requested companies.
+Data Parsing Capabilities: Incorporates table parsing methods to extract structured data from complex document formats.
+Accurate Data Attribution: Processes and attributes data to relevant entities, ensuring high accuracy in data management.
+Data Storage and Reporting: Stores processed data in a data-mart for easy access and reporting, facilitating efficient data exports.
+API Integration: Interfaces with external systems via APIs for enhanced functionality and data interoperability.","Python
+Fast API
+LangChian
+S3 Bucket
+MS SQL Server
+NLP
+Google Search API","Increased Efficiency: Automates the collection and classification of documents, significantly reducing manual effort and time spent on data retrieval.
+Enhanced Accuracy: Utilizes advanced NLP techniques to validate documents, leading to improved accuracy in compliance reporting and decision-making.
+Cost Savings: Reduces operational costs by minimizing manual labor and streamlining the document management process.
+Improved Compliance: Ensures timely access to accurate ESG policies and documents, aiding in regulatory compliance and risk management.
+Data-Driven Insights: Facilitates comprehensive data analysis and reporting, empowering stakeholders with actionable insights for strategic planning.
+Scalability: Supports the ability to manage growing volumes of documents and data efficiently, adapting to changing business needs.
+Competitive Advantage: Enhances organizational capability to respond to compliance requirements swiftly, positioning the company as a leader in responsible governance practices.","Compliance Officers
+Risk Management Teams
+Corporate Governance Professionals
+ESG Analysts and Researchers
+Data Management and Analytics Teams
+Legal Departments
+Investors and Stakeholders
+Regulatory Authorities
+Sustainability Consultants"
+Hooray Health,"GenAI, PDF Extraction,  LLM, Chatbot","A chatbot application backend for Hooray Health, a healthcase insurance company. The chatbot provides interactive chatting facilities to know about the company offerings, medicine details (description, warnings, dosage, usage, drugforms), and any alternative medicines related information",2 months,"Secure Image Handling with Base64: Converts images to Base64 format for secure transmission and storage, ensuring data integrity and compliance with privacy standards.","OpenAI, Postgres, Langchain, LlamaIndex, FastAPI","* Customer engagement with improved user experience (24/7)
+* Operational Efficiency reduces the need for customer support agents
+* Enhanced decision making for their health and medications choices
+* Boosed user retention and satisfaction
+* Drug related Compliance and Risk mitigation","* Existing hooray health insurance members 
+* Individuals and businesses exploring health insurance options 
+* Patients looking for medicine information
+* Healthcare providers (Doctors, pharmacosts etc)
+"
+Maroboshi Keywords Extract,"1.Gen AI
+2 .Keyword Extraction
+3. LLM
+4. Azure OpenAI","A project for Maroboshi OM, involving data transformation and SEO keyword extraction. We structured and managed large volumes of documents for better accessibility.",2 months,Prompt Engineering for Enhanced Accuracy: Optimizes prompts for the LLMs to ensure high accuracy and relevance in both OCR extraction and the chatbot's automated interactions.,"1.Flask
+2.Azure OpenAI
+3.Angular","1. Optimized SEO performance through accurate keyword extraction
+2. Enhanced data management and accessibility.","1. Marketing agencies
+2. Businesses needing SEO optimization
+3. Companies managing large data volumes"
+Legal AI ,"1. AI
+2. LLM
+3. OpenAI
+4. Gen AI","A project where we rebuilt a client's website for contract creation, including a chatbot for contract-related questions, an admin portal, and a system for reviewing contracts.",6 months,"End-to-End Automation: Automates the entire ticketing workflow, from text extraction and interpretation to chatbot responses and data processing, reducing manual effort.","1. FastAPI
+2. PHP Laravel
+3. OpenAI","1. Streamlines contract creation and review process
+2. Enhances contract security by detecting loopholes
+3. Provides real-time legal assistance via chatbot","1. Law firms
+2. Businesses handling contracts
+3. Enterprises needing legal automation tools"
+Inventory Forecasting  (POC),"Forecasting, Machine Learning, Deep Learning, PowerBI, Data Analytics","A project that manages inventory of retail businesses, facilitating demand forecasting, reorder points, optimal reorder quantity, product turnover ratio to determine slow/fast moving products, and vendor analyis ",2 months ,"Customizable Workflows: Flexible design allows for adaptation to different ticket formats and business needs, enabling easy customization for various use cases.","Scikit Learn, Tensorflow, Postgres, PowerBI","1. Reduced Stockouts and overstocking
+2. Improved cash flow management 
+3. enhanced decision making 
+4. Increased efficiency and Productivity
+5. Better Supplier Relationships 
+6. Reduced cost and Higher profit margins
+7. Optimized promotional Planning","1. Retail business owners 
+2. inventory managers and planners 
+3. Procurement teams 
+4. E-commerce business 
+5. Supply chain and operations managers 
+"
+Workflow Automation (POC),"1. Automation
+2. AI
+3. LLM
+4. Intelligent Document Processing (IDP)","A project to automate HR tasks, including job posting and candidate selection. It uses IDP to classify resumes and LLMs for sorting candidates based on job descriptions.",3 months,"1. Automated job posting and candidate selection
+2. Intelligent document processing (IDP) to classify resumes
+3. ElasticSearch for metadata-based CV searching","1. FastAPI
+2. AWS
+3. OpenAI
+4. Next.js
+5. TypeScript","1. Streamlines HR processes
+2. Provides faster candidate shortlisting
+3. Simplifies candidate search and review
+4. Applicable in banking and other sectors for workflow automation","1. HR departments
+2. Recruitment firms
+3. Banking sectors
+4. Companies with high hiring volumes
+5. Automation Process"
+Voice Bot,"1. Call Service Automation
+2. AI
+3.LLM
+4.NLP","This project aims to revolutionize our customer service by implementing an AI-powered hotline. The bot will be capable of handling a wide range of customer inquiries related to our AI team, services, and products. By providing instant and accurate responses, the bot will significantly enhance customer satisfaction and reduce the workload of human agents.
+
+Additionally, the bot will have the ability to seamlessly transfer calls to human agents when necessary, ensuring that complex or unique customer requests are handled by qualified representatives.",3 months,"1.Natural Language Processing (NLP): The bot will leverage NLP to understand and respond to customer queries in a natural and conversational manner.
+
+2.Intelligent Routing: The bot will be able to identify when a customer query is beyond its capabilities and seamlessly transfer the call to a human agent.
+
+3. Knowledge Base: A comprehensive knowledge base will be developed to equip the bot with the necessary information to answer customer questions effectively.","1. OpenAI
+2. AWS Services
+3. FastAPI","1.Improved Customer Satisfaction: By providing instant and accurate responses, the bot will reduce customer wait times and frustration.
+2. Increased Efficiency: The bot will handle routine inquiries, freeing up human agents to focus on more complex issues.
+3. Cost Reduction: By automating customer service tasks, the bot will help reduce operational costs.
+4. Data-Driven Insights: The bot will collect valuable customer data that can be used to improve our products and services.","1. E-commerce: Online retailers, marketplaces
+2. Technology: Software developers, hardware manufacturers
+3. Financial: Banks, insurance companies
+4. Healthcare: Hospitals, pharmacies
+5. Telecommunications: Mobile carriers, ISPs
+6. Government: Tax authorities, DMV
+7. Utilities: Electric companies, water companies
+8. Education: Universities, K-12 schools"
